@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.BusinessLayer.Abbstract
 {
-    public interface IGenericService<T> where T : class
+    public interface IStaffService<T> where T : class
     {
         void TInsert(T t);
         void TDelete(T t);

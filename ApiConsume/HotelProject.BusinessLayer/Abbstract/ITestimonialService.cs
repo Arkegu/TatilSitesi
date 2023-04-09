@@ -7,7 +7,7 @@ using HotelProject.EntityLayer.Concrete;
 
 namespace HotelProject.BusinessLayer.Abbstract
 {
-    public interface ITestimonialService:IGenericService<Testimonial>
+    public interface ITestimonialService:IStaffService<Testimonial>
     {
     }
 }
